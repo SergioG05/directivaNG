@@ -1,4 +1,4 @@
-import { TestBed, async } from '@angular/core/testing';
+/*import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 
@@ -41,3 +41,4 @@ function expect(app: AppComponent) {
   throw new Error('Function not implemented.');
 }
 
+*/

@@ -7,10 +7,10 @@ import { ComponenteUnoComponent } from './componentes/componente-uno/componente-
 
 const routes: Routes = [
 {
-  path: 'inicio', component: ComponenteUnoComponent
+  path: 'pagina1', component: ComponenteUnoComponent
 },
 {
-  path: 'pag2', component: ComponenteDosComponent
+  path: 'pagina2', component: ComponenteDosComponent
 }
 
 

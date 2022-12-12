@@ -8,11 +8,23 @@ import { Component, OnInit } from '@angular/core';
 export class ComponenteUnoComponent implements OnInit {
 
   constructor() { }
-
-  numero:any;
-  sueldos=[1700, 1600, 1900, 1880, 2000, 4555]
+  nombres: any;
+  correo: any;
+  contraseña: any;
+  confirmarContra: any;
+  numero: any;
   ngOnInit(): void {
-  this.numero=0;    
+
+    this.almacenar()
+  }
+  
+  almacenar()
+  {
+   localStorage.setItem('nombre',this.nombres)
+   localStorage.setItem('correo', this.correo)
+   localStorage.setItem('contraseña',this.contraseña)
+   localStorage.setItem('confContra',this.confirmarContra)
+   localStorage.setItem('numero',this.numero)
   }
 
 }
